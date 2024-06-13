@@ -79,5 +79,26 @@
 @media (max-width: 768px) {
   .authentication-form {
     width: 80%;
+    background-color: antiquewhite;
+  }
+}
+@media (max-width: 1200px) {
+  .authentication-form {
+    width: 70%;
+    background-color: beige;
+  }
+}
+
+@media (max-width: 992px) {
+  .authentication-form {
+    width: 80%;
+    background-color: #8760d0;
+  }
+}
+
+@media (max-width: 768px) {
+  .authentication-form {
+    width: 90%;
+    background-color: blueviolet;
   }
 }

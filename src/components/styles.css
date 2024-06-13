@@ -24,4 +24,20 @@ h1, h2 {
   padding: 5px;
   border: 1px solid #ddd;
 }
+@media (max-width: 500px) {
+  .section {
+    margin-bottom: 20px;
+    background-color: aliceblue;
+  }
+
+  .section h2 {
+    font-size: 1.2em;
+    background-color: beige;
+  }
+
+  .item {
+    padding: 8px;
+    background-color: blanchedalmond;
+  }
+}
 

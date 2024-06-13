@@ -543,3 +543,74 @@ h3 {
 .user-profile-modal button:hover {
   background-color: #276674;
 }
+@media (max-width: 992px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    position: static;
+  }
+
+  .navbar-brand img {
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cart-counter {
+    top: 0;
+    right: 0;
+  }
+
+  
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    position: static;
+  }
+
+  .navbar-brand img {
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cart-counter {
+    top: 0;
+    right: 0;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    position: static;
+  }
+
+  .navbar-brand img {
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cart-counter {
+    top: 0;
+    right: 0;
+  }
+
+  
+}

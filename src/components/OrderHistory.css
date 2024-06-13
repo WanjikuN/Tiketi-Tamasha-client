@@ -63,3 +63,9 @@
   
 
 
+@media (max-width: 500px) {
+    .order-history-container li {
+        flex: 0 0 calc(100% - 20px); 
+        background-color: #fff;
+    }
+}

@@ -54,4 +54,21 @@ body {
     transform: translateY(-50%);
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    div {
+        max-width: 90%;
+        background-color: bisque;
+    }
+
+    input {
+        margin-bottom: 10px;
+        background-color: chartreuse;
+    }
+
+    button {
+        padding: 8px;
+        background-color: blue;
+    }
+}
   

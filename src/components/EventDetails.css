@@ -71,38 +71,46 @@
 }
 
 /* Media queries for responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .event-details-container {
-    width: 70%; /* Adjust the width on smaller screens */
+    width: 80%; 
+    background-color: bisque;
   }
+
   .ticket-list {
     flex-wrap: wrap; /* Stack tickets vertically on smaller screens */
     overflow: scroll;
     justify-content: center;
-    height: 180px;
-  }
-  .ticketi{
-    /* border: 1px solid black; */
     height: auto;
-    width: 40%;
-    padding: 2px;
-    
+    background-color: burlywood;
   }
+
+  .ticketi {
+    width: 100%; /* Adjust width for smaller screens */
+    padding: 5px;
+    background-color: antiquewhite;
+  }
+
   #details_img {
     margin-right: 0; /* Remove the margin on smaller screens */
     margin-bottom: 20px; /* Add space below the image on smaller screens */
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    background-color: beige;
+    text-align: center;
+    width: 100%;
   }
 }
 
 @media (max-width: 576px) {
   .ticket-list {
-    flex-direction: column; /* Stack tickets vertically on smaller screens */
+    flex-direction: column; 
+    background-color: antiquewhite;
   }
+
   #ticket {
-    width: 100%; /* Adjust width for smaller screens */
+    width: 100%; 
+    background-color: blanchedalmond;
   }
 }
